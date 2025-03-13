@@ -1,6 +1,8 @@
 # Python-Assignments-Bioinformatics
 This is a space that shares the assignments from the Introduction to Python course focused on bioinformatics for health sciences. Most of the problems are focused on biological analysis. 
 
+Please note that these exercises are a guide, as some of them have modifications that were not requested in the assignment. It is important before using them to verify and understand what the script does.
+
 This introductory part of the repository is focused on giving you suggestions of the workflow that I used for the course and that I would have liked to apply at the beginning. 
 PD: I am not an expert in the area but I hope these suggestions will help you not to be lost when you start learning this programming language.
 
