@@ -1,3 +1,9 @@
+######### Assignment_6: PDB Mean Minimum Distance Calculation ############
+    ## *This script reads an ATOM record from a PDB file, groups the atomic coordinates*
+    ## *by chain and residue, calculates the minimum distance between every unique pair*
+    ## *of residues in each chain (the shortest atom-atom distance), and finally*
+    ## *returns the average of these minimum distances for each chain.*
+    
 import math
 import sys
 
