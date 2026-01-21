@@ -1,10 +1,40 @@
-# Python-Assignments-Bioinformatics
-This is a space that shares the assignments from the Introduction to Python course focused on bioinformatics for health sciences. Most of the problems are focused on biological analysis. 
+# Python-Assignments-Bioinformatics 🧬
 
-Please note that these exercises are a guide, as some of them have modifications that were not requested in the assignment. It is important before using them to verify and understand what the script does.
+This repository contains assignments from the **Introduction to Python** course, specifically tailored for **Bioinformatics in Health Sciences**. Most scripts focus on the biological analysis of sequences, molecular weights, and data parsing.
 
-This introductory part of the repository is focused on giving you suggestions of the workflow that I used for the course and that I would have liked to apply at the beginning. 
-PD: I am not an expert in the area but I hope these suggestions will help you not to be lost when you start learning this programming language.
+> [!IMPORTANT]
+> **Note:** These exercises are intended as a guide. Some scripts include personal modifications or scientific improvements (like water-loss calculations in proteins) that may differ from the basic assignment requirements. Always verify the code logic before use.
 
-- If you don't have it already, download and use Visual Studio Code(VSC). Yes, I know it is windows and there are many experts who may not like it, but it is easy to use for a beginner and user friendly. You can use extensions to help you with different things not only in this course but also in the others. One extension that helped me was to display the PDF files in the VSC.
-- Definitely download Python on your local pc and then link it to VSC. (This way you will be able to work with python from VSC and manage all your scripts and so on easily).
+---
+
+## 📂 Summary of Assignments
+
+* **Assignment 1 - 6:** Foundational Python logic, including string manipulation, list comprehension, and basic dictionary usage for biological data.
+* **Assignment 7 (Object-Oriented Proteins):** * Defines a `Protein` class to encapsulate identifiers and sequences.
+    * Implements a custom **FASTA Generator** to handle large genomic files.
+    * Calculates scientifically accurate **Molecular Weight** (accounting for water loss).
+* **Assignment 8 (Class Hierarchy & Inheritance):** * Creates a `Sequence` superclass with specialized subclasses: `DNASequence`, `RNASequence`, and `ProteinSequence`.
+    * Automates biological workflows: **DNA ⮕ RNA (Transcription)** and **RNA ⮕ Protein (Translation)**.
+    * Uses polymorphism to manage different molecular weight calculations across types.
+
+---
+
+## 🚀 Workflow Suggestions for Beginners
+
+I am not an expert, but here are the suggestions I wish I had followed when I started:
+
+* **Editor:** Download **Visual Studio Code (VSC)**. It is extremely beginner-friendly and has a massive library of extensions.
+    * *Tip:* Use the "vscode-pdf" extension to read assignment instructions side-by-side with your code.
+* **Environment:** Install Python locally and link it to VSC. This makes managing scripts and libraries (like `sys` or `math`) much easier.
+* **Structure:** Keep a `sequence_dictionaries.py` file in your root folder. It acts as a "central library" for your DNA tables and amino acid weights.
+* **Testing:** Always test your scripts using the `if __name__ == "__main__":` block to ensure they run correctly from the terminal.
+
+---
+
+## 🛠️ Technical Stack
+* **Language:** Python 3.x
+* **Libraries used:** `sys` (for terminal arguments), `math`, and custom modules.
+* **Key Concepts:** Object-Oriented Programming (OOP), Generators, Class Inheritance, and Data Parsing.
+
+---
+*Created with ❤️ for the Bioinformatics community.*
