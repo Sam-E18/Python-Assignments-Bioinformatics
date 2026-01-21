@@ -7,9 +7,21 @@ This repository contains assignments from the **Introduction to Python** course,
 
 ---
 
-## 📂 Summary of Assignments
+##  Summary of Assignments
+ **Foundational Python logic, including string manipulation, list comprehension, and basic dictionary usage for biological data.**
 
-* **Assignment 1 - 6:** Foundational Python logic, including string manipulation, list comprehension, and basic dictionary usage for biological data.
+* **Assignment 1: Environment Setup**
+  * Introduction to the Python interpreter and basic variable assignments.
+* **Assignment 2: String Manipulation**
+   * Basic operations on DNA strings: counting nucleotides and finding simple motifs.
+* **Assignment 3: Lists & GC Content**
+   * Using lists to store sequence data and calculating the GC percentage of a DNA strand.
+* **Assignment 4: Dictionaries & Codons**
+   * Implementing dictionaries to map amino acids to their molecular weights and codons to residues.
+* **Assignment 5: Basic File Reading**
+   * Opening and reading simple text files containing single biological sequences.
+* **Assignment 6: Advanced FASTA Parsing**
+   * Developing logic to handle multi-line FASTA files and extracting headers from sequences.
 * **Assignment 7 (Object-Oriented Proteins):** * Defines a `Protein` class to encapsulate identifiers and sequences.
     * Implements a custom **FASTA Generator** to handle large genomic files.
     * Calculates scientifically accurate **Molecular Weight** (accounting for water loss).
@@ -19,7 +31,7 @@ This repository contains assignments from the **Introduction to Python** course,
 
 ---
 
-## 🚀 Workflow Suggestions for Beginners
+##  Workflow Suggestions for Beginners
 
 I am not an expert, but here are the suggestions I wish I had followed when I started:
 
@@ -31,7 +43,7 @@ I am not an expert, but here are the suggestions I wish I had followed when I st
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 * **Language:** Python 3.x
 * **Libraries used:** `sys` (for terminal arguments), `math`, and custom modules.
 * **Key Concepts:** Object-Oriented Programming (OOP), Generators, Class Inheritance, and Data Parsing.
