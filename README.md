@@ -28,7 +28,10 @@ This repository contains assignments from the **Introduction to Python** course,
 * **Assignment 8 (Class Hierarchy & Inheritance):** * Creates a `Sequence` superclass with specialized subclasses: `DNASequence`, `RNASequence`, and `ProteinSequence`.
     * Automates biological workflows: **DNA ⮕ RNA (Transcription)** and **RNA ⮕ Protein (Translation)**.
     * Uses polymorphism to manage different molecular weight calculations across types.
-
+* **Assignment 9: Special Methods & Hashing** 
+    * Implements "Special" methods (__len__, __add__, __str__, etc.) to make sequences behave like native Python objects.
+    * Enables complex sorting based on Molecular Weight using comparison operators.
+    * Implements __hash__ to allow Sequence objects to be used as keys in dictionaries or stored in sets.
 ---
 
 ##  Workflow Suggestions for Beginners
