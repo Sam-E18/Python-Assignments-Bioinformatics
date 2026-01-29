@@ -32,6 +32,14 @@ This repository contains assignments from the **Introduction to Python** course,
     * Implements "Special" methods (__len__, __add__, __str__, etc.) to make sequences behave like native Python objects.
     * Enables complex sorting based on Molecular Weight using comparison operators.
     * Implements __hash__ to allow Sequence objects to be used as keys in dictionaries or stored in sets.
+* **Assignment 10: The Integrated Pipeline (Professional Tool)**
+    * **Advanced CLI:** Implements argparse for industry-standard command-line flags (-i, -o, -v).
+
+    * **Biological Precision:** Unlike previous versions, this translation logic mimics real biology by searching for Start Codons and terminating at Stop Codons.
+
+    * **Performance Optimization:** Uses Python sets for O(1) residue validation and Caching to store Molecular Weight results, preventing redundant calculations.
+
+    * **Robust Error Handling:** Features a custom exception class IncorrectSequenceLetter to skip corrupt data without crashing the entire pipeline.
 ---
 
 ##  Workflow Suggestions for Beginners
